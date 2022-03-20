@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Times New Roman', Times, serif;
+}
+.s1{
+	position: fixed;
+	width: 100%;
+	background-color:rgba(7, 20, 20, 0.966);
+	padding: 15px 0px; 
+
+}
+
+.max-width{
+	width: 900px;
+    margin: auto;
+    padding: 0 80px;
+}
+.s1 .max-width{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.s1 .max-width{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.s1 .logo a{
+	color:#ecf0f1;
+	font-size: 35px;
+	font-weight: 600; 
+    font-family: 'Merienda', cursive;
+}
+.s1 .logo a span{
+	color: #9b27df;
+    font-family: 'Merienda', cursive;
+}
+.s1 .s2{
+	padding-top: 10px;
+}
+.s1 .s2 li{
+	display: inline-block;
+}
+.s1 .s2 li a{
+    border: 2px solid #a548db;
+	color: rgba(216, 238, 245, 0.333);
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+}
+.s1 .s2 li a:hover{
+	color: white;
+    transition: ease-out;
+}
+.home{
+	height: 600px;
+	background-image: url('jpg.jpg');
+	background-size: 1400px;
+	display: flex;
+	width: 1349px;
+    
+}
+.home .max-width{
+	color: white;
+	margin: auto 120px;
+}
+.home .home-content .text-1{
+	font-size: 60px;
+	font-weight: 500;
+	color: white;
+	font-family: 'Merienda', cursive;
+}
+.home .home-content .text-2{
+    font-family: 'Merienda', cursive;
+	font-size: 60px;
+	font-weight: 500 bold;
+	color: black; 
+}
+.home .home-content .text-3{
+	font-size: 60px;
+	font-weight: 200;
+}
+.home .home-content .text-3 span{
+    font-family:'Merienda', cursive ;
+	color: black;
+    font-weight: bold;
+    text-transform: uppercase ;
+
+}
+.home .home-content .button-one{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 140;
+	background-color: #9b27df;
+	color:#ecf0f1;
+	border: 2px solid #000000;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.home .home-content .button-one:hover{
+	background: black;
+	transition: ease-out;
+}
+
+/**********************************************/
+.about{
+
+	background-color:#90b2bb;
+	padding: 90px 200px; 
+}
+.about .title{
+	padding: 10px 150px;
+}
+
+
+
+.about .title pre{
+	font-family: 'Merienda', cursive;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about .column-left{
+	width: 30%;
+	
+}
+.about .about-content img{
+	height: 300px;
+	width: 200px;
+	border-radius: 6px;
+	object-fit: cover;
+	padding: 10px 0px;
+border-radius: 10px;
+	
+}
+.about .column-right{
+	width: 65%;
+}
+.about .column-right .text{
+	font-size: 20px;
+	font-weight: 400;
+}
+.about .column-right .text span{
+	color:black;
+}
+.about .column-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .column-right a{
+	font-size: 40px;
+	background-color: #4c5322;
+	color:rgb(65, 47, 116);
+	font-weight: 200;
+	padding: 10px 40px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 2px solid rgb(59, 60, 109);
+}
+.about .column-right a:hover{
+	background: none;
+	color: rgb(46, 42, 105);
+}
+.home-content.text-1{
+	font-size: 40px;
+	font-family: 'Merienda', cursive;
+	color: rgb(144, 108, 115);
+	font-weight: 200;
+}
+.......................................................................................................
+.about .title{
+	padding: 50px 100px;
+}
+
+
+
+.about .title{
+	font-family: 'Merienda', cursive;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about .column-left{
+	width: 45%;
+}
+.about .about-content img{
+	height: 400px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.about .column-right{
+	width: 55%;
+}
+.about .column-right .text{
+	font-size: 35px;
+	font-weight: 600;
+}
+.about .column-right .text span{
+	color: rgb(20, 220, 120);
+}
+.about .column-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .column-right a{
+	font-size: 40px;
+	background-color: rgb(10, 31, 99);
+	color: white;
+	border-radius: 20px;
+	font-weight: 200;
+	padding: 10px 40px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 2px solid rgb(67, 48, 112);
+}
+.about .column-right a:hover{
+	background: none;
+	color: rgb(20, 220, 210);
+}
+.home-content.text-1{
+	font-size: 40px;
+	font-family: 'Merienda', cursive;
+	color: rgb(20, 220, 170);
+	font-weight: 200;
+}
+...............................................................
+.about .title{
+	padding: 100px 200px;
+	height: 200px;
+}
+
+
+
+.about .title{
+	color: black;
+	font-size: 55px;
+	width: 130px;
+	margin: 30px auto;
+	text-align: center;
+	text-decoration: underline rgb(44, 43, 95);
+	margin-left: 29px;
+	margin-top: 5px;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.about .column-left{
+	width: 100%;
+}
+.about .about-content img{
+	height: 450px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.about .column-right{
+	width: 60%;
+}
+.about .column-right .text{
+	font-size: 35px;
+	font-weight: 600;
+}
+.about .column-right .text span{
+	color: rgb(44, 43, 95);
+}
+.about .column-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .column-right a{
+	font-size: 40px;
+	background-color: rgb(44, 43, 95);
+	color: black;
+	border-radius: 20px;
+	font-weight: 200;
+	padding: 10px 40px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 2px solid black;
+}
+.about .column-right a:hover{
+	background: none;
+	color: rgb(44, 43, 95);
+}
+.home-content.text-1{
+	font-size: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(44, 43, 95);
+	font-weight: 200;
+}
+...........................................................................
+#service{
+	background-color: black;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	font-family: 'Merienda', cursive;
+	color: black;
+	font-size: 40px;
+	width: 300px;
+	margin: 10px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 250px;
+	width: 250px;
+	padding: 20px ;
+	background-image: url("pexels-nubia-navarro-(nubikini)-714898.jpg") ;
+	background-size: cover;
+	margin: 15px;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: rgb(44, 43, 95);
+
+}
+h5{
+	color: rgb(44, 43, 95);
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:rgb(44, 43, 95);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid rgb(44, 43, 95);
+	cursor: pointer;
+}
+..................................................................................................
+.som.competence h2{
+   	color: rgb(42, 43, 95);
+	font-size: 75px;
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+
+}
+			
+.som{
+	background-color: rgb(44, 43, 95);
+}
+.som .team{
+	border: 2px solid rgb(43, 43, 92)
+	width: 300px;
+	background-color: rgb(43, 43, 92);
+	color: white;
+
+}
+.som .team img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	padding: 50px; 
+	border-color: solid	;
+	border-radius: 1000%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.team{
+	align-items: center;
+	justify-content: space-between;
+}
+.som .team{
+	display: inline-block;
+	align-items: center;
+}
+.som{
+	padding-top: 40px;
+}
+main{
+	padding: 3.5rem 0;
+}
+main{
+	background-color: rgb(253, 251, 251);
+}
+h1{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(57, 56, 110);
+}
+form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 60%;
+	max-width: 1000px;
+	padding: 0 1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.field{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 7px;
+
+	width: 20rem;
+	color: #000000;
+}
+.field input{
+	font-size: 30px;
+	width:40%;
+	height: 2.2rem;
+	
+
+	border: 2px solid #434392;
+}
+
+.get p{
+	justify-content: left;
+	margin: 4px 3px;
+	padding: 4px 3px;
+	text-align: left;
+	font-family: 'Merienda', cursive;
+}
+.field select{
+	font-size: 1.1rem;
+	width: 12rem;
+	height: 2.6rem;
+	padding-left: 0.5rem;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.textbox{
+	display: flex;
+	flex-direction: column;
+	width: 30;
+	margin: 0.75rem 0;
+}
+textarea{
+	font-size: 1.1rem;
+	max-width: 100%;
+	height: 5rem;
+	max-height: 15rem;
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.modalitÃ©{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 20rem;
+	margin: 0.75rem 0;
+}
+.modalitÃ© label{
+	font-size: 0.9rem;
+
+	margin-bottom: 0.2rem;
+
+	color: black;
+}
+.modalitÃ© div{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 0.5rem;
+}
+.modalitÃ© div input{
+	cursor: pointer;
+	height: 1rem;
+	width: 1rem;
+}
+.confidentialitÃ©{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+.submit{
+	display: flex;
+	justify-content: right;
+	margin-top: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+.submit button{
+	color: #434392;
+	cursor: pointer;
+	padding: 30px 20px;
+	font-size: 40px;
+	background-color:  black;
+	justify-content: right;
+}
+.submit button:hover{
+	color:white;
+	transition: ease-out;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-family:'Merienda', cursive ;
+	font-size: 30px;
+	color: black;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: black;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: block;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	margin: 22px 10px;
+	color: #434392;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
